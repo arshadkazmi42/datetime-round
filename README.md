@@ -1,6 +1,6 @@
 # datetime-round
 
-[![Build Status](https://api.travis-ci.com/arshadkazmi42/datetime-round.svg?branch=master)](https://api.travis-ci.com/arshadkazmi42/datetime-round)
+[![Build Status](https://travis-ci.com/arshadkazmi42/datetime-round.svg?branch=master)](https://api.travis-ci.com/arshadkazmi42/datetime-round)
 
 Rounds off datetime to nearest interval
 
