@@ -20,5 +20,8 @@ describe('round off date time to defined interval', () => {
 
     M = DatetimeRound('2019-08-30 10:11:00', 10, 'minutes', 'floor'); 
     expect(M.format('YYYY-MM-DD HH:mm:ss')).to.equal('2019-08-30 10:10:00');
+    
+    M = DatetimeRound('2019-08-30 10:11:00', '10', 'minutes', 'floor'); 
+    expect(M.format('YYYY-MM-DD HH:mm:ss')).to.equal('2019-08-30 10:10:00');
   });
 });
