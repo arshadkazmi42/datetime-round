@@ -13,7 +13,7 @@ const round = (date, interval, intervalType, method) => {
     date = moment(date);
   }
   
-  const momentDuration = moment.duration(interval, intervalType);
+  const momentDuration = moment.duration(parseInt(interval), intervalType);
   return moment(Math[method]((+date) / (+momentDuration)) * (+momentDuration));
 };
 
