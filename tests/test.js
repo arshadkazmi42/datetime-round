@@ -24,4 +24,27 @@ describe('round off date time to defined interval', () => {
     M = DatetimeRound('2019-08-30 10:11:00', '10', 'minutes', 'floor'); 
     expect(M.format('YYYY-MM-DD HH:mm:ss')).to.equal('2019-08-30 10:10:00');
   });
+
+  it('should return invalid date errors', () => {
+    let M = DatetimeRound('2019-08-30 10:11:00', '', 'minutes', 'floor');
+    expect(M.format('YYYY-MM-DD HH:mm:ss')).to.equal('Invalid date');
+
+    M = DatetimeRound('2019-08-30 10:11:00', undefined, 'minutes', 'floor');
+    expect(M.format('YYYY-MM-DD HH:mm:ss')).to.equal('Invalid date');
+
+    M = DatetimeRound('2019-08-30 10:11:00', 'test', 'minutes', 'floor');
+    expect(M.format('YYYY-MM-DD HH:mm:ss')).to.equal('Invalid date');
+
+    M = DatetimeRound('2019-08-30 10:11:00', null, 'minutes', 'floor');
+    expect(M.format('YYYY-MM-DD HH:mm:ss')).to.equal('Invalid date');
+
+    M = DatetimeRound('2019-08-30 10:11:00', null, 'mi', 'floor');
+    expect(M.format('YYYY-MM-DD HH:mm:ss')).to.equal('Invalid date');
+
+    try {
+      M = DatetimeRound('2019-08-30 10:11:00', 'test', 'minutes', '');
+    } catch (err) {
+      expect(err.message).to.equal('Math[method] is not a function');      
+    }
+  });
 });
