@@ -1,6 +1,12 @@
 # datetime-round
 
-[![Build Status](https://travis-ci.com/arshadkazmi42/datetime-round.svg?branch=master)](https://api.travis-ci.com/arshadkazmi42/datetime-round)
+[![Build](https://github.com/arshadkazmi42/datetime-round/actions/workflows/nodejs.yml/badge.svg)](https://github.com/arshadkazmi42/datetime-round/actions/workflows/nodejs.yml)
+[![NPM Version](https://img.shields.io/npm/v/datetime-round.svg)](https://www.npmjs.com/package/datetime-round)
+[![NPM Downloads](https://img.shields.io/npm/dt/datetime-round.svg)](https://www.npmjs.com/package/datetime-round)
+[![Github Repo Size](https://img.shields.io/github/repo-size/arshadkazmi42/datetime-round.svg)](https://github.com/arshadkazmi42/datetime-round)
+[![LICENSE](https://img.shields.io/npm/l/datetime-round.svg)](https://github.com/arshadkazmi42/datetime-round/blob/master/LICENSE)
+[![Contributors](https://img.shields.io/github/contributors/arshadkazmi42/datetime-round.svg)](https://github.com/arshadkazmi42/datetime-round/graphs/contributors)
+[![Commit](https://img.shields.io/github/last-commit/arshadkazmi42/datetime-round.svg)](https://github.com/arshadkazmi42/datetime-round/commits/master)
 
 Rounds off datetime to nearest interval
 
