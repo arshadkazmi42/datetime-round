@@ -8,9 +8,6 @@
 [![Contributors](https://img.shields.io/github/contributors/arshadkazmi42/datetime-round.svg)](https://github.com/arshadkazmi42/datetime-round/graphs/contributors)
 [![Commit](https://img.shields.io/github/last-commit/arshadkazmi42/datetime-round.svg)](https://github.com/arshadkazmi42/datetime-round/commits/master)
 
-
-[![Build Status](https://travis-ci.com/arshadkazmi42/datetime-round.svg?branch=master)](https://api.travis-ci.com/arshadkazmi42/datetime-round)
-
 Rounds off datetime to nearest interval
 
 ## Install
